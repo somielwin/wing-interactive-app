@@ -1,0 +1,27 @@
+/* Welcome to Compass.
+ * In this file you should write your typography here. */
+
+a {
+    text-decoration: none;
+    color: $colorBlack;
+}
+
+.input-wrap {
+    input[type="text"] {
+ 		width: 100%;
+ 		padding: 0px 10px;
+ 		outline: none;
+ 		min-height: 24px;
+ 	    line-height: 24px;
+ 	    display: block;
+ 	    border-radius: 4px;
+ 	    -webkit-appearance: none;
+ 	    -moz-appearance: none;
+ 	    appearance: none;
+ 	    border: 0;
+ 	    font-size: 14px;
+ 	    font-family: $content-font-family;
+ 	    font-weight: 400;
+ 	    resize: none;
+ 	}
+}

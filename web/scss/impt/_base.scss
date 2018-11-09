@@ -1,0 +1,15 @@
+/* Welcome to Compass.
+ * In this file you should write your base styles for Wing Ipad. (or centralize your imports) */
+
+html, body {
+    height: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    font-family: $content-font-family;
+    background-color: $brandColor01;
+    color: $colorBlack;
+}
+
+* {
+    box-sizing: border-box;
+}
