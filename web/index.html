@@ -127,7 +127,7 @@
     <div class="sequence sequence3 hide">
         <a href="#zero" class="back"><img src="images/iPad-home.png" border="0" align="left"></a>
         <div class="owl-carousel owl-theme">
-          <div><img src="images/content/our-vision/1-Our-Vision.png" align="center" border="0" alt=""></div>
+          <div><img src="images/content/our-vision/1-Our-Vision.jpg" align="center" border="0" alt=""></div>
         </div>
     </div>
 
@@ -193,7 +193,8 @@
                 $(this).addClass('pulse');
                 //$('.active').not(this).removeClass('active');
                 $( '.pulse').not(this).removeClass('pulse');
-                $( '.desc' + $(this).attr('data-toggle-target')).toggleClass('active');
+                $('.desc').removeClass('active');
+                $( '.desc' + $(this).attr('data-toggle-target')).addClass('active');
                 e.stopPropagation();
             });
 
@@ -203,6 +204,7 @@
                 var open = $(this).find('.open').attr('data-sequence');
 
                 console.log(open);
+
                  $('.sequence'+open).toggleClass('hide');
 
             });
