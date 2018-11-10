@@ -641,8 +641,8 @@ html, body {
         height: 110%;
         width: 110%;
         border-radius: 100%;
-        -webkit-animation: pulse 2s infinite;
-        animation: pulse 2s infinite;
+        -webkit-animation: pulse 1.4s infinite;
+        animation: pulse 1.4s infinite;
         position: absolute;
         -webkit-transform: translate(-50%, 0);
         -ms-transform: translate(-50%, 0);
