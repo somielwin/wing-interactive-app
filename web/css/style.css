@@ -484,7 +484,7 @@ html, body {
       text-align: center;
       -webkit-tap-highlight-color: transparent;
       position: absolute;
-      bottom: 8%;
+      bottom: 10%;
       left: 50%;
       z-index: 9;
       -webkit-transform: translate(-50%, 0);
@@ -663,7 +663,7 @@ html, body {
       width: 25vw;
       position: absolute;
       left: 0;
-      top: -50px; }
+      top: -70px; }
       .index .info .social-wrap ul {
         display: block;
         overflow: hidden; }
@@ -704,7 +704,7 @@ html, body {
       width: 30vw;
       position: absolute;
       right: 0;
-      top: -50px; }
+      top: -70px; }
       .index .info .app-wrap .search {
         float: right;
         width: 67%;
